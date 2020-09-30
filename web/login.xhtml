@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" xmlns:html="http://java.sun.com/jsf/html">
+
+<!--
+<head>
+    <title>Title</title>
+</head>
+<body>
+
+</body>-->
+<html:head>
+
+    <title> MY LOGIN PAGE </title>
+
+</html:head>
+
+<html:body dir="#{res.direction}">
+
+
+    <html:form>
+
+        <html:outputLabel value="#{res.username}"></html:outputLabel>
+        <html:inputText value="#{myLogin.userName}"></html:inputText>
+        <br/>
+        <html:outputLabel value="#{res.password}"></html:outputLabel>
+        <html:inputSecret value="#{myLogin.password}"></html:inputSecret>
+        <br/>
+        <html:commandButton action="#{myLogin.check}" value="#{res.login}"></html:commandButton>
+        <br/>
+        <html:commandButton  value="#{res.farsi}" action="#{myLogin.changeToFarsi}"></html:commandButton>
+        <br/>
+        <html:commandButton value="#{res.english}" action="#{myLogin.changeToEnglish}"></html:commandButton>
+        <br/>
+        <html:commandButton value="#{res.turkish}" action="#{myLogin.changeToTurkish}"></html:commandButton>
+        <br/>
+        <html:outputLabel value="#{myLogin.result}"></html:outputLabel>
+
+    </html:form>
+
+</html:body>
+
+</html>

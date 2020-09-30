@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="jsf2 library">
+    <CLASSES>
+      <root url="file://D:/JavaeeAPP/jsf2 library" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://D:/JavaeeAPP/jsf2 library" recursive="false" />
+  </library>
+</component>
